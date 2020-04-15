@@ -1,6 +1,6 @@
 # Gaucho Life
 
-Years ago, I had a SPARC workstation running SunOS that used Conway's Game of Life as the screensaver.  I loved watching it, and it's one of the biggest things I've missed about using that workstation and OS.  In 2018, I decided to write a screensaver for macOS that simulated the Game of Life.  I've used it for the past couple of years on my own Macs, but never released it publicly.  When I learned that Dr. Conway passed away earlier this week, on April 11, 2020, I decided to release this screensaver to the general public as a tribute.  
+Years ago, I had a SPARC workstation running SunOS that used John Conway's Game of Life as the screensaver.  I loved watching it, and it's one of the biggest things I've missed about using that workstation and OS.  In 2018, I decided to write a screensaver for macOS that simulated the Game of Life.  I've used it for the past couple of years on my own Macs, but never released it publicly.  When I learned that Dr. Conway passed away earlier this week, on April 11, 2020, I decided to release this screensaver to the general public as a tribute.  
 
 ![Gaucho Life Screenshot](/Resources/screenshot-1.0.png)
 
