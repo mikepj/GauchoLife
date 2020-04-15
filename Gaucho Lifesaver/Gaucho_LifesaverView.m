@@ -7,7 +7,7 @@
 //
 
 #import "Gaucho_LifesaverView.h"
-#import "Gaucho_Lifesaver-Swift.h"
+#import "Gaucho_Life-Swift.h"
 
 @implementation Gaucho_LifesaverView
 

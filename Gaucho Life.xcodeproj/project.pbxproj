@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2700A6A82146F0E2007B1BC1 /* Gaucho Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gaucho Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2700A6A82146F0E2007B1BC1 /* Gaucho Life App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gaucho Life App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2700A6AB2146F0E2007B1BC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2700A6AD2146F0E2007B1BC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2700A6AF2146F0E2007B1BC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -29,7 +29,7 @@
 		2700A6BB2146F0F5007B1BC1 /* LifeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeModel.swift; sourceTree = "<group>"; };
 		2700A6BF2146F135007B1BC1 /* LifeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeView.swift; sourceTree = "<group>"; };
 		2700A6D4214705FE007B1BC1 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
-		2700A6DB21470F2A007B1BC1 /* Gaucho Lifesaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gaucho Lifesaver.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2700A6DB21470F2A007B1BC1 /* Gaucho Life.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gaucho Life.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2700A6DD21470F2A007B1BC1 /* Gaucho_LifesaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gaucho_LifesaverView.h; sourceTree = "<group>"; };
 		2700A6DF21470F2A007B1BC1 /* Gaucho_LifesaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gaucho_LifesaverView.m; sourceTree = "<group>"; };
 		2700A6E121470F2A007B1BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,8 +67,8 @@
 		2700A6A92146F0E2007B1BC1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2700A6A82146F0E2007B1BC1 /* Gaucho Life.app */,
-				2700A6DB21470F2A007B1BC1 /* Gaucho Lifesaver.saver */,
+				2700A6A82146F0E2007B1BC1 /* Gaucho Life App.app */,
+				2700A6DB21470F2A007B1BC1 /* Gaucho Life.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,9 +121,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2700A6A72146F0E2007B1BC1 /* Gaucho Life */ = {
+		2700A6A72146F0E2007B1BC1 /* Gaucho Life App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2700A6B82146F0E2007B1BC1 /* Build configuration list for PBXNativeTarget "Gaucho Life" */;
+			buildConfigurationList = 2700A6B82146F0E2007B1BC1 /* Build configuration list for PBXNativeTarget "Gaucho Life App" */;
 			buildPhases = (
 				2700A6A42146F0E2007B1BC1 /* Sources */,
 				2700A6A52146F0E2007B1BC1 /* Frameworks */,
@@ -133,14 +133,14 @@
 			);
 			dependencies = (
 			);
-			name = "Gaucho Life";
+			name = "Gaucho Life App";
 			productName = "Gaucho Life";
-			productReference = 2700A6A82146F0E2007B1BC1 /* Gaucho Life.app */;
+			productReference = 2700A6A82146F0E2007B1BC1 /* Gaucho Life App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2700A6DA21470F2A007B1BC1 /* Gaucho Lifesaver */ = {
+		2700A6DA21470F2A007B1BC1 /* Gaucho Life */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2700A6E221470F2A007B1BC1 /* Build configuration list for PBXNativeTarget "Gaucho Lifesaver" */;
+			buildConfigurationList = 2700A6E221470F2A007B1BC1 /* Build configuration list for PBXNativeTarget "Gaucho Life" */;
 			buildPhases = (
 				2700A6D621470F2A007B1BC1 /* Sources */,
 				2700A6D721470F2A007B1BC1 /* Frameworks */,
@@ -151,9 +151,9 @@
 			);
 			dependencies = (
 			);
-			name = "Gaucho Lifesaver";
+			name = "Gaucho Life";
 			productName = "Gaucho Lifesaver";
-			productReference = 2700A6DB21470F2A007B1BC1 /* Gaucho Lifesaver.saver */;
+			productReference = 2700A6DB21470F2A007B1BC1 /* Gaucho Life.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -188,8 +188,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2700A6A72146F0E2007B1BC1 /* Gaucho Life */,
-				2700A6DA21470F2A007B1BC1 /* Gaucho Lifesaver */,
+				2700A6A72146F0E2007B1BC1 /* Gaucho Life App */,
+				2700A6DA21470F2A007B1BC1 /* Gaucho Life */,
 			);
 		};
 /* End PBXProject section */
@@ -366,8 +366,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Gaucho Life/Gaucho_Life.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 28EXY66HMA;
 				INFOPLIST_FILE = "Gaucho Life/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -385,8 +387,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Gaucho Life/Gaucho_Life.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 28EXY66HMA;
 				INFOPLIST_FILE = "Gaucho Life/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -403,7 +407,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 28EXY66HMA;
@@ -415,7 +419,7 @@
 					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/Swift",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gauchosoft.Gaucho-Lifesaver";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gauchosoft.Gaucho-Life";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -427,7 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 28EXY66HMA;
@@ -439,7 +443,7 @@
 					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/Swift",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gauchosoft.Gaucho-Lifesaver";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gauchosoft.Gaucho-Life";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -459,7 +463,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2700A6B82146F0E2007B1BC1 /* Build configuration list for PBXNativeTarget "Gaucho Life" */ = {
+		2700A6B82146F0E2007B1BC1 /* Build configuration list for PBXNativeTarget "Gaucho Life App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2700A6B92146F0E2007B1BC1 /* Debug */,
@@ -468,7 +472,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2700A6E221470F2A007B1BC1 /* Build configuration list for PBXNativeTarget "Gaucho Lifesaver" */ = {
+		2700A6E221470F2A007B1BC1 /* Build configuration list for PBXNativeTarget "Gaucho Life" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2700A6E321470F2A007B1BC1 /* Debug */,
