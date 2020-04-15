@@ -11,6 +11,11 @@
 		2700A6AE2146F0E2007B1BC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700A6AD2146F0E2007B1BC1 /* ViewController.swift */; };
 		2700A6B02146F0E2007B1BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2700A6AF2146F0E2007B1BC1 /* Assets.xcassets */; };
 		2700A6B32146F0E2007B1BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2700A6B12146F0E2007B1BC1 /* Main.storyboard */; };
+		2700A6BC2146F0F5007B1BC1 /* LifeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700A6BB2146F0F5007B1BC1 /* LifeModel.swift */; };
+		2700A6C02146F135007B1BC1 /* LifeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700A6BF2146F135007B1BC1 /* LifeView.swift */; };
+		2700A6DE21470F2A007B1BC1 /* Gaucho_LifesaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2700A6DD21470F2A007B1BC1 /* Gaucho_LifesaverView.h */; };
+		2700A6E021470F2A007B1BC1 /* Gaucho_LifesaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2700A6DF21470F2A007B1BC1 /* Gaucho_LifesaverView.m */; };
+		2700A6E5214710CC007B1BC1 /* LifeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700A6BB2146F0F5007B1BC1 /* LifeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,10 +26,25 @@
 		2700A6B22146F0E2007B1BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2700A6B42146F0E2007B1BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2700A6B52146F0E2007B1BC1 /* Gaucho_Life.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gaucho_Life.entitlements; sourceTree = "<group>"; };
+		2700A6BB2146F0F5007B1BC1 /* LifeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeModel.swift; sourceTree = "<group>"; };
+		2700A6BF2146F135007B1BC1 /* LifeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeView.swift; sourceTree = "<group>"; };
+		2700A6D4214705FE007B1BC1 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		2700A6DB21470F2A007B1BC1 /* Gaucho Lifesaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gaucho Lifesaver.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2700A6DD21470F2A007B1BC1 /* Gaucho_LifesaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gaucho_LifesaverView.h; sourceTree = "<group>"; };
+		2700A6DF21470F2A007B1BC1 /* Gaucho_LifesaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gaucho_LifesaverView.m; sourceTree = "<group>"; };
+		2700A6E121470F2A007B1BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2700A6E7214714CB007B1BC1 /* libswiftAppKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftAppKit.tbd; path = System/Library/PrivateFrameworks/Swift/libswiftAppKit.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2700A6A52146F0E2007B1BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2700A6D721470F2A007B1BC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				2700A6AA2146F0E2007B1BC1 /* Gaucho Life */,
+				2700A6DC21470F2A007B1BC1 /* Gaucho Lifesaver */,
 				2700A6A92146F0E2007B1BC1 /* Products */,
+				2700A6D3214705FE007B1BC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				2700A6A82146F0E2007B1BC1 /* Gaucho Life.app */,
+				2700A6DB21470F2A007B1BC1 /* Gaucho Lifesaver.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,6 +78,8 @@
 			children = (
 				2700A6AB2146F0E2007B1BC1 /* AppDelegate.swift */,
 				2700A6AD2146F0E2007B1BC1 /* ViewController.swift */,
+				2700A6BF2146F135007B1BC1 /* LifeView.swift */,
+				2700A6BB2146F0F5007B1BC1 /* LifeModel.swift */,
 				2700A6AF2146F0E2007B1BC1 /* Assets.xcassets */,
 				2700A6B12146F0E2007B1BC1 /* Main.storyboard */,
 				2700A6B42146F0E2007B1BC1 /* Info.plist */,
@@ -63,7 +88,37 @@
 			path = "Gaucho Life";
 			sourceTree = "<group>";
 		};
+		2700A6D3214705FE007B1BC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2700A6E7214714CB007B1BC1 /* libswiftAppKit.tbd */,
+				2700A6D4214705FE007B1BC1 /* ScreenSaver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2700A6DC21470F2A007B1BC1 /* Gaucho Lifesaver */ = {
+			isa = PBXGroup;
+			children = (
+				2700A6DD21470F2A007B1BC1 /* Gaucho_LifesaverView.h */,
+				2700A6DF21470F2A007B1BC1 /* Gaucho_LifesaverView.m */,
+				2700A6E121470F2A007B1BC1 /* Info.plist */,
+			);
+			path = "Gaucho Lifesaver";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2700A6D821470F2A007B1BC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2700A6DE21470F2A007B1BC1 /* Gaucho_LifesaverView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		2700A6A72146F0E2007B1BC1 /* Gaucho Life */ = {
@@ -83,6 +138,24 @@
 			productReference = 2700A6A82146F0E2007B1BC1 /* Gaucho Life.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2700A6DA21470F2A007B1BC1 /* Gaucho Lifesaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2700A6E221470F2A007B1BC1 /* Build configuration list for PBXNativeTarget "Gaucho Lifesaver" */;
+			buildPhases = (
+				2700A6D621470F2A007B1BC1 /* Sources */,
+				2700A6D721470F2A007B1BC1 /* Frameworks */,
+				2700A6D821470F2A007B1BC1 /* Headers */,
+				2700A6D921470F2A007B1BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gaucho Lifesaver";
+			productName = "Gaucho Lifesaver";
+			productReference = 2700A6DB21470F2A007B1BC1 /* Gaucho Lifesaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +168,10 @@
 				TargetAttributes = {
 					2700A6A72146F0E2007B1BC1 = {
 						CreatedOnToolsVersion = 9.4.1;
+					};
+					2700A6DA21470F2A007B1BC1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -112,6 +189,7 @@
 			projectRoot = "";
 			targets = (
 				2700A6A72146F0E2007B1BC1 /* Gaucho Life */,
+				2700A6DA21470F2A007B1BC1 /* Gaucho Lifesaver */,
 			);
 		};
 /* End PBXProject section */
@@ -126,6 +204,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2700A6D921470F2A007B1BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -133,8 +218,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2700A6C02146F135007B1BC1 /* LifeView.swift in Sources */,
 				2700A6AE2146F0E2007B1BC1 /* ViewController.swift in Sources */,
 				2700A6AC2146F0E2007B1BC1 /* AppDelegate.swift in Sources */,
+				2700A6BC2146F0F5007B1BC1 /* LifeModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2700A6D621470F2A007B1BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2700A6E021470F2A007B1BC1 /* Gaucho_LifesaverView.m in Sources */,
+				2700A6E5214710CC007B1BC1 /* LifeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +373,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gauchosoft.Gaucho-Life";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -295,9 +392,58 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gauchosoft.Gaucho-Life";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		2700A6E321470F2A007B1BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 28EXY66HMA;
+				INFOPLIST_FILE = "Gaucho Lifesaver/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/Swift",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gauchosoft.Gaucho-Lifesaver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		2700A6E421470F2A007B1BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 28EXY66HMA;
+				INFOPLIST_FILE = "Gaucho Lifesaver/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/Swift",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gauchosoft.Gaucho-Lifesaver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
 		};
@@ -318,6 +464,15 @@
 			buildConfigurations = (
 				2700A6B92146F0E2007B1BC1 /* Debug */,
 				2700A6BA2146F0E2007B1BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2700A6E221470F2A007B1BC1 /* Build configuration list for PBXNativeTarget "Gaucho Lifesaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2700A6E321470F2A007B1BC1 /* Debug */,
+				2700A6E421470F2A007B1BC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
