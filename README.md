@@ -4,7 +4,7 @@ Years ago, I had a SPARC workstation running SunOS that used John Conway's Game 
 
 ![Gaucho Life Screenshot](/Resources/screenshot-1.0.png)
 
-I decided on a BSD license for it, so go ahead and use the code in other projects as long as you maintain the copyright notice and attribution.  It's written in Swift with just a single view controller in Obj-C, so the code is a reasonable guide for writing a modern screensaver.  Any imperfections are solely a result of this being the first screensaver I've ever put together.
+I decided on a BSD license for it, so go ahead and use the code in other projects as long as you maintain the copyright notice and attribution.  It's written in Swift, so the code is a reasonable guide for writing a modern screensaver.  Any imperfections are solely a result of this being the first screensaver I've ever put together.
 
 I'm not planning to add any features, so if you're looking for something new, feel free to submit a PR.  Bug reports, of course, are always welcome via the Issues tab above.
 
