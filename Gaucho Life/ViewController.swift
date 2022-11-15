@@ -33,5 +33,35 @@
 
 import Cocoa
 
-class ViewController: NSViewController {}
+class ViewController: NSViewController {
+    
+    private var model = LifeModel()
+    private var lifeView: LifeView? { view as? LifeView }
+    
+    private var timer: Timer?
+    
+    override func viewDidLoad() {
+        timer = Timer.scheduledTimer(withTimeInterval: 0.75, repeats: true) { [weak self] _ in
+            guard let self else { return }
+            
+            self.model.increment()
+            self.updateView()
+        }
+    }
+    
+    override func viewDidLayout() {
+        super.viewDidLayout()
+        
+        model.reset(
+            boardWidth: UInt(view.frame.width / model.blockSize),
+            boardHeight: UInt(view.frame.height / model.blockSize)
+        )
+
+        updateView()
+    }
+    
+    private func updateView() {
+        lifeView?.update(from: model)
+    }
+}
 

@@ -13,9 +13,13 @@
 		2700A6B32146F0E2007B1BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2700A6B12146F0E2007B1BC1 /* Main.storyboard */; };
 		2700A6BC2146F0F5007B1BC1 /* LifeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700A6BB2146F0F5007B1BC1 /* LifeModel.swift */; };
 		2700A6C02146F135007B1BC1 /* LifeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700A6BF2146F135007B1BC1 /* LifeView.swift */; };
-		2700A6DE21470F2A007B1BC1 /* Gaucho_LifesaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2700A6DD21470F2A007B1BC1 /* Gaucho_LifesaverView.h */; };
-		2700A6E021470F2A007B1BC1 /* Gaucho_LifesaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2700A6DF21470F2A007B1BC1 /* Gaucho_LifesaverView.m */; };
 		2700A6E5214710CC007B1BC1 /* LifeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700A6BB2146F0F5007B1BC1 /* LifeModel.swift */; };
+		27298331292423DE000697BA /* LifeDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27298330292423DE000697BA /* LifeDrawing.swift */; };
+		27298332292423DE000697BA /* LifeDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27298330292423DE000697BA /* LifeDrawing.swift */; };
+		2755A98A2923FF0A001B4AC7 /* LifeBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2755A9892923FF0A001B4AC7 /* LifeBoard.swift */; };
+		2755A98B2923FFDA001B4AC7 /* LifeBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2755A9892923FF0A001B4AC7 /* LifeBoard.swift */; };
+		2755A98C29240156001B4AC7 /* LifeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700A6BF2146F135007B1BC1 /* LifeView.swift */; };
+		2755A98E292403CB001B4AC7 /* LifeSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2755A98D292403CB001B4AC7 /* LifeSaverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +34,11 @@
 		2700A6BF2146F135007B1BC1 /* LifeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeView.swift; sourceTree = "<group>"; };
 		2700A6D4214705FE007B1BC1 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
 		2700A6DB21470F2A007B1BC1 /* Gaucho Life.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gaucho Life.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2700A6DD21470F2A007B1BC1 /* Gaucho_LifesaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gaucho_LifesaverView.h; sourceTree = "<group>"; };
-		2700A6DF21470F2A007B1BC1 /* Gaucho_LifesaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gaucho_LifesaverView.m; sourceTree = "<group>"; };
 		2700A6E121470F2A007B1BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2700A6E7214714CB007B1BC1 /* libswiftAppKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftAppKit.tbd; path = System/Library/PrivateFrameworks/Swift/libswiftAppKit.tbd; sourceTree = SDKROOT; };
+		27298330292423DE000697BA /* LifeDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeDrawing.swift; sourceTree = "<group>"; };
+		2755A9892923FF0A001B4AC7 /* LifeBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeBoard.swift; sourceTree = "<group>"; };
+		2755A98D292403CB001B4AC7 /* LifeSaverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeSaverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +85,13 @@
 				2700A6AD2146F0E2007B1BC1 /* ViewController.swift */,
 				2700A6BF2146F135007B1BC1 /* LifeView.swift */,
 				2700A6BB2146F0F5007B1BC1 /* LifeModel.swift */,
+				2755A9892923FF0A001B4AC7 /* LifeBoard.swift */,
+				27298330292423DE000697BA /* LifeDrawing.swift */,
 				2700A6AF2146F0E2007B1BC1 /* Assets.xcassets */,
 				2700A6B12146F0E2007B1BC1 /* Main.storyboard */,
 				2700A6B42146F0E2007B1BC1 /* Info.plist */,
 				2700A6B52146F0E2007B1BC1 /* Gaucho_Life.entitlements */,
+				2755A98D292403CB001B4AC7 /* LifeSaverView.swift */,
 			);
 			path = "Gaucho Life";
 			sourceTree = "<group>";
@@ -100,8 +108,6 @@
 		2700A6DC21470F2A007B1BC1 /* Gaucho Lifesaver */ = {
 			isa = PBXGroup;
 			children = (
-				2700A6DD21470F2A007B1BC1 /* Gaucho_LifesaverView.h */,
-				2700A6DF21470F2A007B1BC1 /* Gaucho_LifesaverView.m */,
 				2700A6E121470F2A007B1BC1 /* Info.plist */,
 			);
 			path = "Gaucho Lifesaver";
@@ -114,7 +120,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2700A6DE21470F2A007B1BC1 /* Gaucho_LifesaverView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +173,7 @@
 				TargetAttributes = {
 					2700A6A72146F0E2007B1BC1 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = "";
 					};
 					2700A6DA21470F2A007B1BC1 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -218,7 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2755A98B2923FFDA001B4AC7 /* LifeBoard.swift in Sources */,
 				2700A6C02146F135007B1BC1 /* LifeView.swift in Sources */,
+				27298331292423DE000697BA /* LifeDrawing.swift in Sources */,
 				2700A6AE2146F0E2007B1BC1 /* ViewController.swift in Sources */,
 				2700A6AC2146F0E2007B1BC1 /* AppDelegate.swift in Sources */,
 				2700A6BC2146F0F5007B1BC1 /* LifeModel.swift in Sources */,
@@ -229,8 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2700A6E021470F2A007B1BC1 /* Gaucho_LifesaverView.m in Sources */,
+				2755A98E292403CB001B4AC7 /* LifeSaverView.swift in Sources */,
+				27298332292423DE000697BA /* LifeDrawing.swift in Sources */,
+				2755A98C29240156001B4AC7 /* LifeView.swift in Sources */,
 				2700A6E5214710CC007B1BC1 /* LifeModel.swift in Sources */,
+				2755A98A2923FF0A001B4AC7 /* LifeBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,10 +387,11 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gauchosoft.Gaucho-Life";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -398,10 +410,11 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gauchosoft.Gaucho-Life";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -410,17 +423,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 28EXY66HMA;
 				INFOPLIST_FILE = "Gaucho Lifesaver/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/Swift",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gauchosoft.Gaucho-Life";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -434,17 +446,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 28EXY66HMA;
 				INFOPLIST_FILE = "Gaucho Lifesaver/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks/Swift",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gauchosoft.Gaucho-Life";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

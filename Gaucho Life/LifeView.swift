@@ -33,27 +33,28 @@
 
 import Cocoa
 
-class LifeView: NSView {
-    
-    let model = LifeModel()
-    
-    var timer: Timer?
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        
-        timer = Timer.scheduledTimer(withTimeInterval: 0.75, repeats: true) { [weak self] (_) in
-            guard let self = self else { return }
-            
-            self.model.increment()
-            self.setNeedsDisplay(self.bounds)
+public class LifeView: NSView, LifeDrawing {
+    var blockSize: CGFloat = 24 {
+        didSet {
+            setNeedsDisplay(self.bounds)
         }
     }
     
-    override func draw(_ dirtyRect: NSRect) {
-        super.draw(dirtyRect)
-        
-        model.draw(in: self.bounds)
+    var board: LifeBoard? {
+        didSet {
+            setNeedsDisplay(self.bounds)
+        }
     }
     
+    func update(from model: LifeModel) {
+        board = model.board
+        blockSize = model.blockSize
+    }
+
+    override public func draw(_ dirtyRect: NSRect) {
+        super.draw(dirtyRect)
+        
+        guard let board else { return }
+        draw(board: board, blockSize: blockSize, in: bounds)
+    }
 }
